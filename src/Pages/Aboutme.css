@@ -1,0 +1,124 @@
+.about-page {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.about-page .container {
+  position: relative;
+  z-index: 2;
+  max-width: 820px;
+}
+
+.profile-section {
+  margin-bottom: 44px;
+}
+
+.avatar-wrapper {
+  width: 132px;
+  height: 132px;
+  border: 2px dashed var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.status {
+  width: 16px;
+  height: 16px;
+  background: var(--accent-2);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+  border: 3px solid var(--bg);
+}
+
+.cgpa {
+  margin-top: 22px;
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-warm-soft);
+  border: 1px solid rgba(255, 180, 84, 0.3);
+  color: var(--accent-warm);
+}
+
+.about-page .tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.about-page .tags span,
+.about-page .skills span {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  background: var(--surface);
+}
+
+.about-page h1 {
+  font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+  line-height: 1.05;
+}
+
+.about-page h1 span {
+  color: var(--accent);
+}
+
+.about-page .description {
+  margin-top: 28px;
+}
+
+.about-page .description p {
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.about-page .skills {
+  margin-top: 36px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 110px;
+  }
+
+  .avatar-wrapper {
+    width: 108px;
+    height: 108px;
+  }
+
+  .avatar {
+    width: 84px;
+    height: 84px;
+  }
+}

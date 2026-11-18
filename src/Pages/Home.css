@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+  min-height: calc(100vh - 78px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 80px 32px;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 6.5vw, 5rem);
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.hero h1 span {
+  color: var(--accent);
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--accent-2);
+}
+
+.hero-desc {
+  margin-bottom: 44px;
+}
+
+.hero-desc p {
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+
+.hero-stack {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.stack-label {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.stack-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stack-pills span {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 60px 24px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .buttons .btn {
+    text-align: center;
+  }
+}
