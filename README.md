@@ -1,3 +1,45 @@
+# Aniket Naitam - Portfolio
+
+## Portfolio Preview
+
+![Portfolio Preview](./screenshots/portfolio-preview1.png)
+(./screenshots/portfolio-preview2.png)
+(./screenshots/portfolio-preview3.png)
+(./screenshots/portfolio-preview4.png)
+(./screenshots/portfolio-preview5.png)
+(./screenshots/portfolio-preview6.png)
+
+
+## About Me
+
+I am a Full Stack Developer passionate about
+building modern and responsive web applications.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Tailwind CSS
+- Node.js
+- Git & GitHub
+
+## Features
+
+- Responsive design
+- Modern UI
+- Projects showcase
+- Contact section
+- About me section
+
+## Live Website
+
+Add your deployed portfolio URL here.
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
